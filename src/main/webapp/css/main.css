@@ -1,0 +1,60 @@
+/*
+    Created on : Aug 19, 2021, 8:17:48 PM
+    Author     : BrandonG
+*/
+/*
+.link:link{
+    color:blueviolet;
+}
+a:visited{
+    color:red;
+}
+
+a:hover{
+    background-color: black;
+}
+
+a:active{
+    color:blue;
+}
+
+
+p:first-letter{
+    color:black!important;
+    font-size: 30px;
+}
+*/
+.hijos{
+    background-color: lightgrey;
+    width: 300px;
+    border: 10px solid blue;
+    padding: 30px;
+    margin: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.menu > li{
+   /* float: left;*/
+}
+
+.menu > li > a{
+   color: white;
+   text-align: center;
+   padding: 10px;
+   text-decoration: none;
+}
+
+.menu > li > a:hover{
+    background-color: blue;
+}
+
+
