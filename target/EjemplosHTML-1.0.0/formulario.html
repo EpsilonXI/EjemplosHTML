@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> formulario ejemplo </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="#" method="POST" enctype="multipart/form-data" >
+                <fieldset>
+                    <legend>Informacion basica</legend>
+                    <p> Nombre Completo: <input type="text" name="nombreCompleto" placeholder="Ingresa tu nombre aqu&iacute;" required/> </p>
+                    <p> Fecha de Nacimiento: <input type="date" name="fechaNacimiento" value="2021-08-26" required/> </p>
+                    <p>
+                        Genero:
+                        <label> <input type="radio" name="genero" value="M" required/> Masculino </label>
+                         <label> <input type="radio" name="genero" value="F" /> Femenino </label>
+                           <label> <input type="radio" name="genero" value="UFO" /> UFO </label>
+                    </p>
+                    
+                         <p> Numero telefónico: <input type="tel" name="telefono" required >  </p>
+     <p> Correo: <input type="email" name="correo" required/></p>
+                </fieldset>
+                
+                              <fieldset>
+                    <legend>Informacion adicional</legend>
+                    <p>
+                        Intereses:
+                        <label> <input type="checkbox" name="libros" value="L" /> libros </label>
+                         <label> <input type="checkbox" name="cine" value="C" /> cine </label>
+                          <label> <input type="checkbox" name="videogames" value="V" /> videogames </label>
+                    </p>
+                    <p> Color Favorito: <input type="color" name="colorFavorito"/>
+                    <p>Archivito: <input type="file" name="archivo"></p>
+                </fieldset>
+                <input type="submit" value="Enviar Formulario"/>
+                <input type="reset" value="Limpiar Formulario"/>
+            </form>
+        </div>
+    </body>
+</html>
